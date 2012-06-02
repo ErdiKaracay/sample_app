@@ -1,0 +1,70 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-02 16:42:53 +0300
+Served asset /rails.png - 200 OK (140ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-06-02 16:57:34 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (109.4ms)
+Compiled pages.css  (125ms)  (pid 1396)
+Compiled application.css  (218ms)  (pid 1396)
+Compiled jquery.js  (15ms)  (pid 1396)
+Compiled jquery_ujs.js  (0ms)  (pid 1396)
+Compiled pages.js  (1156ms)  (pid 1396)
+Compiled application.js  (1812ms)  (pid 1396)
+Completed 200 OK in 3078ms (Views: 3078.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-02 16:57:41 +0300
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-02 16:57:41 +0300
+Served asset /jquery.js - 200 OK (15ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-06-02 16:57:41 +0300
+Served asset /pages.css - 200 OK (15ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-06-02 16:57:41 +0300
+Served asset /pages.js - 200 OK (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-02 16:57:41 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-02 16:57:41 +0300
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2012-06-02 16:58:33 +0300
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-02 16:58:33 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-02 16:58:33 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-02 16:58:33 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-02 16:58:33 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-06-02 16:58:33 +0300
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-06-02 16:58:33 +0300
+Served asset /pages.js - 304 Not Modified (0ms)
