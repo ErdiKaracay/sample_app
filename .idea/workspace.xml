@@ -2,70 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcdd8049-03f5-4e8d-9652-4ff723a9cd34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Thumbs-872449825c597c9a84205ef1eae6610e.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-71d713cde355d59233a356be1eb8b987.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f878da2de44414336ba3c7199d04ceb1.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/buttons/icons/cross-c2651300ae2e326a9727177155b48bf7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/buttons/icons/key-9db9f7ef5cb5f66d1dd4a2adfbf0a87b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/buttons/icons/tick-749c8298fcbfe4490ba9f7e4a9079637.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/doc-60f5a9be85d1f29f02d915ef2d33e2c3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/email-d10a1cbeb98596c14961c48b15888ea7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/external-3bef4b7b3b5614716526f2ee5d69f829.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/feed-dd7771a1711b88314ce4f484836aa285.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/im-81a1c3f5f8f27209b8607c65d85fb0fc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/lock-272e7ed1d34b55511eab7b2094b0759b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/pdf-fd8027aed74f50538ab830a71d7e56da.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/visited-75731a32fe07fbcd10c95173254e69ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/icons/xls-590ac03632317af39267aa4dc073cbcc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/src/grid-99a56fe9528f46c2bbb7084a7e34bb4f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-d60bb5b9e95f67d09e2b366059afa3b1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails-be8732dac73d845ac5b142c8fb5f9fb0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D02/0A0/sprockets%2F4ad413f3e3326481d2f5f9327bbd0e12" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4B/240/sprockets%2Fa0c373d41e799340b46dfcb98872cdc9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D66/E60/sprockets%2F85ae64edf528ce6e981889f3f3c285d9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9B/B20/sprockets%2F06da86a93bf3ff9b707211adac93ea55" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/production.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-71d713cde355d59233a356be1eb8b987.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f878da2de44414336ba3c7199d04ceb1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/buttons/readme-19221f7d283e4a5d8c4bd7e230c24c44.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/fancy-type/readme-c34790b425da91297556c0d7f65087d6.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/link-icons/readme-65a1d718f19baf262d741c5d189b38e6.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/blueprint/plugins/rtl/readme-e1cabbf7290891d9065cead2cc0f87a8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\CA5\040\sprockets%2F33d2a65459b3070fa1044b6f6466f12f" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\CB9\B40\sprockets%2F1ba2331aab000dc355521d376087bf32" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\CCD\310\sprockets%2F11c1306b10b15e8d8986a74444bfba40" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\CD6\210\sprockets%2Fc810e62b057b6935ee4383bb0d4a4058" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\CD8\2E0\sprockets%2F05e74c6141a7ae7d54a26824cd1d4087" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\CD8\370\sprockets%2F357970feca3ac29060c1e3861e2c0953" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\D2F\8A0\sprockets%2F6fad04bfc6f657170023030f3a905cfd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\D32\A10\sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\D37\330\sprockets%2Fe9d34eb574e311caca07f10387ee2517" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\D40\EB0\sprockets%2F58d13fa8238ddbe40924e2b2b8e2b892" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\D42\A50\sprockets%2F2c0b2f98a975be143d57fce703d4650f" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\D44\F40\sprockets%2F5bc06bdf9d7cf27740282153ff8ce631" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\D5A\EA0\sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\DB7\B80\sprockets%2Fa11f42eb6ca8a32a3fff51d14e60a45c" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\DCF\920\sprockets%2F3c088db5ae1ded33eeb3498b6a8a7a46" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\DDC\400\sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\E03\670\sprockets%2F1f74e4d3e9bd7cd2eb269ac174a7fa8b" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\assets\E17\F60\sprockets%2Facad4bd6523fcaaac231e0ddb2d86745" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Pc\Desktop\Programs\rails_projects\sample_app\tmp\cache\sass\0853f2c56a6298f4f818323e826856a7913dfdbc\pages.css.scssc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CA0/DB0/sprockets%2Fb8d42949e061501a753d0e3a8be12522" afterPath="$PROJECT_DIR$/tmp/cache/assets/CA0/DB0/sprockets%2Fb8d42949e061501a753d0e3a8be12522" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CDB/910/sprockets%2F26098b294d10eec3e946bb124334e5e4" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDB/910/sprockets%2F26098b294d10eec3e946bb124334e5e4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CF0/DA0/sprockets%2Fd7d5b37686831d37c4dd75e645f5e016" afterPath="$PROJECT_DIR$/tmp/cache/assets/CF0/DA0/sprockets%2Fd7d5b37686831d37c4dd75e645f5e016" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0F/880/sprockets%2F8f2511830f6e103d24928dac99a5cf5a" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/880/sprockets%2F8f2511830f6e103d24928dac99a5cf5a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0F/E00/sprockets%2F36e9404118de7d60dc66cb2a135bf965" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/E00/sprockets%2F36e9404118de7d60dc66cb2a135bf965" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D15/A30/sprockets%2F8d467b2390a5eab42a9d2d3d89792e32" afterPath="$PROJECT_DIR$/tmp/cache/assets/D15/A30/sprockets%2F8d467b2390a5eab42a9d2d3d89792e32" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D15/FC0/sprockets%2F28614a3aee38b2d28196de47af53647d" afterPath="$PROJECT_DIR$/tmp/cache/assets/D15/FC0/sprockets%2F28614a3aee38b2d28196de47af53647d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D38/730/sprockets%2F1dae4d2312e8b9049d8b663c7eb3d700" afterPath="$PROJECT_DIR$/tmp/cache/assets/D38/730/sprockets%2F1dae4d2312e8b9049d8b663c7eb3d700" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DBF/AD0/sprockets%2F08d6e6c816be15a157f6a11acce13dea" afterPath="$PROJECT_DIR$/tmp/cache/assets/DBF/AD0/sprockets%2F08d6e6c816be15a157f6a11acce13dea" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/E25/4C0/sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6" afterPath="$PROJECT_DIR$/tmp/cache/assets/E25/4C0/sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
@@ -84,6 +20,10 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="sample_app" />
   </component>
@@ -92,7 +32,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.77272725">
+            <state line="17" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.57114625">
               <folding />
             </state>
           </provider>
@@ -162,16 +102,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -356,6 +286,16 @@
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -603,14 +543,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="27" width="841" height="674" extended-state="0" />
+    <frame x="117" y="27" width="841" height="674" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32611465" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33630574" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -738,35 +678,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="241" selection-end="241" vertical-scroll-proportion="0.034979425">
-          <folding />
-        </state>
+        <state line="9" column="36" selection-start="241" selection-end="241" vertical-scroll-proportion="0.034979425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="313" selection-end="313" vertical-scroll-proportion="0.44827586">
-          <folding />
-        </state>
+        <state line="13" column="32" selection-start="313" selection-end="313" vertical-scroll-proportion="0.44827586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="205" selection-end="205" vertical-scroll-proportion="0.5240848">
-          <folding />
-        </state>
+        <state line="16" column="11" selection-start="205" selection-end="205" vertical-scroll-proportion="0.5240848" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="78" selection-end="78" vertical-scroll-proportion="0.098265894">
-          <folding />
-        </state>
+        <state line="3" column="21" selection-start="78" selection-end="78" vertical-scroll-proportion="0.098265894" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.77272725">
+        <state line="17" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.57114625">
           <folding />
         </state>
       </provider>
