@@ -3894,3 +3894,17 @@ Migrating to CreateUsers (20120606143350)
   [1m[35m (0.0ms)[0m  select sqlite_version(*)
   [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (62.5ms)[0m  [1mbegin transaction[0m
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120606143350)
+Migrating to AddEmailUniquenessIndex (20120611191151)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120611191151')
+  [1m[36m (62.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
