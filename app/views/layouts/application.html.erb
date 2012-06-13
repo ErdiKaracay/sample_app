@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <% def full_title(page_title)
+    base_title = "Ruby on Rails Tutorial Sample App"
+    if page_title.empty?
+    base_title
+    else
+    "#{base_title} | #{page_title}"
+    end
+    end  %>
+    <title> <%= full_title(yield(:title)) %> </title>
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
   </head>
@@ -12,6 +20,7 @@
         <%= yield %>
       </section>
       <%= render 'layouts/footer' %>
+      <%= debug(params) if Rails.env.development? %>
     </div>
   </body>
 </html>

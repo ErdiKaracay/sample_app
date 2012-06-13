@@ -1,7 +1,9 @@
 class User < ActiveRecord::Base
   attr_accessible :email, :name
 
-  email_regex = /\^[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  before_save { |user| user.email = email.downcase }
+
+  email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
   validates :name,  :presence => true,
                     :length   => { :maximum => 50 }
