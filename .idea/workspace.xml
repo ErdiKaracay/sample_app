@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bcdd8049-03f5-4e8d-9652-4ff723a9cd34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
@@ -32,19 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="59" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+            <state line="27" column="38" selection-start="947" selection-end="947" vertical-scroll-proportion="0.4950495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20120614182924_add_password_to_users.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20120614182924_add_password_to_users.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20120614182924_add_password_to_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0984556">
+            <state line="3" column="17" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,14 +76,14 @@
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/help.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120614182924_add_password_to_users.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="494" />
-    <option name="y" value="530" />
+    <option name="x" value="341" />
+    <option name="y" value="553" />
     <option name="width" value="841" />
     <option name="height" value="673" />
   </component>
@@ -461,7 +460,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="494" y="530" width="841" height="673" extended-state="0" />
+    <frame x="341" y="553" width="841" height="673" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
@@ -611,16 +610,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120614182924_add_password_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+        <state line="3" column="17" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120614182924_add_password_to_users.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0984556">
+        <state line="27" column="38" selection-start="947" selection-end="947" vertical-scroll-proportion="0.4950495">
           <folding />
         </state>
       </provider>
