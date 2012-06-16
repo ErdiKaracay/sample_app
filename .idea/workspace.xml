@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcdd8049-03f5-4e8d-9652-4ff723a9cd34" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
     </list>
     <ignored path="sample_app.iws" />
@@ -31,7 +32,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="33" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.6059406">
+            <state line="18" column="1" selection-start="695" selection-end="695" vertical-scroll-proportion="0.6059406">
               <folding />
             </state>
           </provider>
@@ -70,8 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
-    <option name="y" value="292" />
+    <option name="x" value="389" />
+    <option name="y" value="240" />
     <option name="width" value="841" />
     <option name="height" value="673" />
   </component>
@@ -416,7 +417,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="292" width="841" height="673" extended-state="1" />
+    <frame x="389" y="240" width="841" height="673" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
@@ -589,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="33" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.6059406">
+        <state line="18" column="1" selection-start="695" selection-end="695" vertical-scroll-proportion="0.6059406">
           <folding />
         </state>
       </provider>
