@@ -7916,3 +7916,1542 @@ Served asset /blueprint/print.css - 304 Not Modified (0ms)
 
 Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 20:47:38 +0300
 Served asset /custom.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 22:45:12 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (125.0ms)
+  Rendered layouts/_stylesheets.html.erb (109.4ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 656ms (Views: 656.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:45:18 +0300
+Served asset /custom.css - 200 OK (15ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:45:18 +0300
+Served asset /blueprint/print.css - 200 OK (15ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:45:18 +0300
+Served asset /blueprint/screen.css - 200 OK (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:45:20 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (218.8ms)
+Completed 500 Internal Server Error in 812ms
+
+ActionView::Template::Error (Missing partial shared/error_messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/error_messages' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_10591500'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_10591500'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (93.8ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (140.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:46:53 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/error_messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/error_messages' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_10591500'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_10591500'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:46:54 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/error_messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/error_messages' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_10591500'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_10591500'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 22:46:57 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:57 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:57 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:57 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-06-17 22:46:58 +0300
+Processing by PagesController#help as HTML
+  Rendered pages/help.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:58 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:58 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:58 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:46:59 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-17 22:47:07 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:47:07 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:47:07 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:47:07 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 22:47:09 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:47:09 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:47:09 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:47:09 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:47:10 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/error_messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/error_messages' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_10591500'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_10591500'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:47:44 +0300
+Processing by UsersController#new as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from block in _app_views_users_new_html_erb__120861080_17257896 at C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:5)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/_error_messages.html with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/_error_messages.html.erb' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17257896'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17257896'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:47:45 +0300
+Processing by UsersController#new as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from block in _app_views_users_new_html_erb__120861080_17257896 at C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:5)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/_error_messages.html with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/_error_messages.html.erb' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17257896'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17257896'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:47:48 +0300
+Processing by UsersController#new as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from block in _app_views_users_new_html_erb__120861080_17257896 at C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:5)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/_error_messages.html with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/_error_messages.html.erb' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17257896'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17257896'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:47:49 +0300
+Processing by UsersController#new as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from block in _app_views_users_new_html_erb__120861080_17257896 at C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:5)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/_error_messages.html with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/_error_messages.html.erb' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17257896'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17257896'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:47:50 +0300
+Processing by UsersController#new as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from block in _app_views_users_new_html_erb__120861080_17257896 at C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:5)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/_error_messages.html with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/_error_messages.html.erb' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17257896'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17257896'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:47:51 +0300
+Processing by UsersController#new as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from block in _app_views_users_new_html_erb__120861080_17257896 at C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:5)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/_error_messages.html with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/_error_messages.html.erb' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17257896'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17257896'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:48:36 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Missing partial shared/error_messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/error_messages' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17206572'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17206572'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:48:37 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Missing partial shared/error_messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/error_messages' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17206572'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17206572'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:48:39 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 0ms
+
+ActionView::Template::Error (Missing partial shared/error_messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+    2: <h1>Sign up</h1>
+    3: 
+    4: <%= form_for(@user) do |f| %>
+    5:   <%= render 'shared/error_messages' %>
+    6:   <div class="field">
+    7:     <%= f.label :name %><br />
+    8:     <%= f.text_field :name %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17206572'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17206572'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:53:18 +0300
+Processing by UsersController#new as HTML
+ERROR: compiling _app_views_shared__error_messages_html_erb___624317022_17128368 RAISED C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:4: syntax error, unexpected ':', expecting ')'
+...e(@user.errors.count, "error"): );@output_buffer.safe_concat...
+...                               ^
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:13: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:15: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_shared__error_messages_html_erb___624317022_17128368(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "shared/_error_messages";_old_output_buffer = @output_buffer;error_messages = local_assigns[:error_messages];;@output_buffer = output_buffer || ActionView::OutputBuffer.new; if @user.errors.any? 
+@output_buffer.safe_concat('    <div id="error_explanation">
+      <h2>
+        The form contains ');@output_buffer.append= ( pluralize(@user.errors.count, "error"): );@output_buffer.safe_concat('.
+      </h2>
+      <ul>
+');         @user.errors.full_messages.each do |msg| 
+@output_buffer.safe_concat('            <li>* ');@output_buffer.append= ( msg );@output_buffer.safe_concat('</li>
+');         end 
+@output_buffer.safe_concat('      </ul>
+    </div>
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `module_eval'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `compile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/template.rb:233:in `compile!'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/template.rb:142:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17206572'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/helpers/capture_helper.rb:40:in `block in capture'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/helpers/capture_helper.rb:187:in `with_output_buffer'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/helpers/capture_helper.rb:40:in `capture'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/helpers/form_helper.rb:606:in `fields_for'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/helpers/form_helper.rb:377:in `form_for'
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17206572'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/template.rb:143:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:18:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:17:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:110:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:88:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/Ruby192/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:167:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:414:in `_run__764212504__process_action__362541382__callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:121:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:45:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal.rb:203:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_controller/metal.rb:246:in `block in action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:36:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:600:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__266337947__call__119119611__callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:4: syntax error, unexpected ':', expecting ')'
+...e(@user.errors.count, "error"): );@output_buffer.safe_concat...
+...                               ^
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:13: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views/shared/_error_messages.html.erb:15: syntax error, unexpected keyword_end, expecting ')'):
+    1: <% if @user.errors.any? %>
+    2:     <div id="error_explanation">
+    3:       <h2>
+    4:         The form contains <%= pluralize(@user.errors.count, "error"): %>.
+    5:       </h2>
+    6:       <ul>
+    7:         <% @user.errors.full_messages.each do |msg| %>
+  app/views/users/new.html.erb:5:in `block in _app_views_users_new_html_erb__120861080_17206572'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__120861080_17206572'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:53:42 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (62.5ms)
+  Rendered layouts/_stylesheets.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:53:43 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:53:43 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 22:54:35 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (140.6ms)
+  Rendered layouts/_stylesheets.html.erb (31.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 562ms (Views: 562.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:54:40 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:54:40 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:54:40 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 22:54:47 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (31.2ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 547ms (Views: 46.9ms | ActiveRecord: 78.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:54:48 +0300
+Served asset /custom.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:54:48 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:54:48 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 22:55:02 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"aserwu", "email"=>"aserwu@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('aserwu@example.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (78.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 516ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:55:03 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:55:03 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:55:03 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 22:55:24 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"aserwu", "email"=>"aserwu@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('aserwu@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (78.1ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "salt", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 19:55:24 UTC +00:00], ["email", "aserwu@example.com"], ["name", "aserwu"], ["password_digest", "$2a$10$S6y0dZocO9i/JUb1WsGyjehQmwS/v3vCclxbnHa7mVM5IbJpovOW."], ["salt", nil], ["updated_at", Sun, 17 Jun 2012 19:55:24 UTC +00:00]]
+  [1m[36m (31.2ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 438ms
+
+ActionView::MissingTemplate (Missing template users/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Documents and Settings/Pc/Desktop/Programs/rails_projects/sample_app/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find'
+  C:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  C:/Ruby192/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__360306975__process_action__307764356__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__134714203__call__773214495__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 22:55:33 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 22:55:33 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 22:55:33 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 22:55:33 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 23:02:34 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Compiled custom.css  (0ms)  (pid 3716)
+  Rendered layouts/_stylesheets.html.erb (156.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:02:34 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:02:34 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:02:34 +0300
+Served asset /custom.css - 200 OK (15ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 23:02:45 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"kt77tkk", "email"=>"ky77@g34g.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('ky77@g34g.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:02:45 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:02:45 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:02:45 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:05:58 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:05:58 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:05:58 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:05:58 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 23:05:59 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:05:59 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:05:59 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:05:59 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 23:20:35 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"Aserwu", "email"=>"aserwu@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('aserwu@example.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 172ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:20:35 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:20:35 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:20:35 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 23:20:59 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"Aserwu", "email"=>"asrw@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('asrw@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "salt", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 20:20:59 UTC +00:00], ["email", "asrw@example.com"], ["name", "Aserwu"], ["password_digest", "$2a$10$5d9P8o4wJbE/SuKrS.IpbuV1Zh.P32mLRTyw/97IuCg.C5tB/exC6"], ["salt", nil], ["updated_at", Sun, 17 Jun 2012 20:20:59 UTC +00:00]]
+  [1m[36m (46.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 172ms (ActiveRecord: 46.9ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-06-17 23:20:59 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:20:59 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:20:59 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:20:59 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-06-17 23:22:00 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:22:00 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:22:00 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:22:00 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-06-17 23:22:08 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:22:08 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:22:08 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:22:08 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:25:17 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:25:17 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:25:17 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:25:17 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 23:25:18 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:25:18 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:25:18 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:25:18 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 23:27:15 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"luuşu9şi9", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:27:15 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:27:15 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:27:15 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:30:07 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled blueprint/screen.css  (0ms)  (pid 3716)
+  Rendered layouts/_stylesheets.html.erb (156.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 156ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:07 +0300
+Served asset /blueprint/screen.css - 200 OK (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:07 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:07 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 23:30:08 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:08 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:08 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:08 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 23:30:12 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"jrj6trkj", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (15.6ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:12 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:12 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:12 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:30:33 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled blueprint/screen.css  (0ms)  (pid 3716)
+  Rendered layouts/_stylesheets.html.erb (140.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 172ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:33 +0300
+Served asset /blueprint/screen.css - 200 OK (15ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:33 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:33 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 23:30:34 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:34 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:34 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:34 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-17 23:30:37 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rTe5BkSmgAOAVjfZWFdRa+YGDTJz5XZeCZ7rNwtycaE=", "user"=>{"name"=>"rk6kk4r", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:37 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:37 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:37 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:30:40 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:40 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:40 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:40 +0300
+Served asset /custom.css - 304 Not Modified (15ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-06-17 23:30:40 +0300
+Processing by PagesController#help as HTML
+  Rendered pages/help.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:40 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:41 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:41 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-06-17 23:30:41 +0300
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:41 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:41 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:41 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-06-17 23:30:42 +0300
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:42 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:42 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:42 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:30:43 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:43 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:43 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:43 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:30:44 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:44 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:44 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:44 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-06-17 23:30:45 +0300
+Processing by PagesController#help as HTML
+  Rendered pages/help.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (46.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 62ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:45 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:45 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:45 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:30:46 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:46 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:46 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:30:46 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-06-17 23:32:40 +0300
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:40 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:40 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:40 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-06-17 23:32:41 +0300
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:41 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:41 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:41 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:32:42 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:42 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:42 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:42 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-17 23:32:43 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:43 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:43 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:43 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 23:32:44 +0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_stylesheets.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:44 +0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:44 +0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 23:32:44 +0300
+Served asset /custom.css - 304 Not Modified (0ms)
